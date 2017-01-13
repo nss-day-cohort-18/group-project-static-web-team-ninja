@@ -1,9 +1,9 @@
 //Widget Objects
 var widget_1 = {
-	name: "<article class='product-card'><h3>Widget#1</h3>",	
+	name: "<h3>Widget#2</h3>",	
 	img: "<img src='images/widget-1.jpg'class='product-img'>",
 	price: "<h4>$999,999</h4>",
-	description: "<p>Description</p></article>"
+	description: "<p>Description</p>"
 }
 
 var widget_2 = {
@@ -14,7 +14,7 @@ var widget_2 = {
 }
 
 var widget_3 = {
-	name: "<h3>Widget#1</h3>",	
+	name: "<h3>Widget#3</h3>",	
 	img: "<img src='images/widget-1.jpg'class='product-img'>",
 	price: "<h4>$999,999</h4>",
 	description: "<p>Description</p>"
@@ -26,15 +26,17 @@ var products =[
 	widget_3
 ]
 
-var cardSection = document.getElementById("card-section") 
+var cardSection = document.getElementById("card-section") ;
+var cardArt = document.createElement("article");
+var cardDets;
 
 for (var i = 0; i < products.length; i++) {
 	for (var property in products[i]) {
+		cardDets = document.createTextNode(products[i][property]);
+		console.log(cardDets);
+		cardArt.appendChild(cardDets);
 		
-
-
-
-		cardSection.innerHTML += cardSection.(products[i][property]);
+		cardSection.innerHTML += cardSection.innerHTML + cardArt;
 	}
 }
 
