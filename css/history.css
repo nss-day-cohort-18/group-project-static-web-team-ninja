@@ -1,7 +1,15 @@
-/*h2,
-h3,*/
-p {
-	text-decoration-style: none;
-	/*padding: 1em;*/
-	margin: 1em 0 0 0;
+#main {
+	background-color: red;
+	border: 2px solid;
+	float: left;
+}
+
+#content {
+	background-color: blue;
+	float: left;
+	width: 50%;
+}
+
+#widgets {
+	float: left;
 }
