@@ -1,6 +1,48 @@
 h1 {
 	text-align: center;
 	font-family: 'Bungee Shade', cursive;
-	font-size: 4em;
-	color: #3bc0b6;
+	font-size: 6em;
+	color: #000;
+	margin-top: -3.5em;
+	margin-bottom: 3em;
+}
+
+h2 {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 28px;
+	color: #B041C7;
+}
+
+p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	text-align: right;
+}
+
+#banner {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.details {
+	display: block;
+	background-color: #3BC0B6;
+	margin-top: -7em;
+	padding: 2em;
+}
+
+.col {
+	display: inline-block;
+	width: 40%;
+	margin-left: 1em;
+	padding: 25px;
+}
+
+.smImg {
+	float: left;
+	width: 35%;
+	margin-top: 2em;
+	margin-left: -4em;
+	margin-right: 1em;
 }
