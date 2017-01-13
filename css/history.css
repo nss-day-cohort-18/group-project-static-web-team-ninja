@@ -1,5 +1,5 @@
 #history {
-	width: 100%;
+	width: 85em;
 }
 
 #main {
@@ -23,12 +23,22 @@
 	border: .125em solid;
 }
 
-footer {
+.copy {
+	float: left;
+	margin-top: 2em;
+	margin-left: 0;
+	font-size: 12px;
+}
+
+#foot-info {
 	font-family: 'Droid Sans', sans-serif;
+	font-size: .85em;
+	text-align: right;
+}
+
+footer {	
 	background-color: #b041c7;
-	font-size: .75em;
-	/*text-align: right;
-	width: 95.8%;
+	/*width: 95.8%;
 	padding: 2em;
 	padding-top: .5em;
 	margin-top: 0;*/
