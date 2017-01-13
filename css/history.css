@@ -1,28 +1,15 @@
 #history {
 	width: 100%;
-	/*position: absolute;
-	left: 0;*/
-	/*height: 5%;*/
-	/*border: 2px solid;*/
-	/*margin: -16px 0 0 0;*/
 }
 
 #main {
-	/*background-color: red;*/
-	/*border: 2px solid;*/
-	/*position: absolute;
-	left: 0;*/
-	/*margin: 2px;*/
 	background-color: white;
 	float: left;
-	padding: 20px;
-	/*clear: both;*/
+	padding: 1.25em;
 }
 
 #content {
-	/*background-color: blue;*/
-	line-height: 25px;
-	/*margin: auto;*/
+	line-height: 1.5625em;
 	text-align: justify;
 	float: left;
 	width: 50%;
@@ -31,16 +18,15 @@
 #widgets {
 	float: left;
 	width: 40%;
-	margin: 10px 0 0 100px;
-	border-radius: 25px;
-	border: 2px solid;
-	/*clear: both;*/
+	margin: .625em 0 0 6.25em;
+	border-radius: 1.5625em;
+	border: .125em solid;
 }
 
 footer {
 	font-family: 'Droid Sans', sans-serif;
 	background-color: #b041c7;
-	font-size: 12px;
+	font-size: .75em;
 	/*text-align: right;
 	width: 95.8%;
 	padding: 2em;
