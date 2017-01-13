@@ -1,0 +1,79 @@
+/*font-family: 'Bungee Shade', cursive; /* this is for main headings */
+
+body {
+	background-color: #3CC4AA;
+}
+
+.topimg {
+ 	width: 100%;
+    text-align: center;
+    margin-top: -1em;
+    padding-top: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	margin: 0 -3em 0 3em;
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+.hellotext {
+	display: inline-block;
+	font-family: 'Droid Sans', sans-serif;
+	width: 40%;
+	text-align: center;
+	padding: 0 3em;
+}
+
+.helloimg {
+	width: 40%;
+	display: inline-block;
+	height: 400px;
+
+}
+
+.lovetext {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	width: 40%;
+	padding: 0 3em;
+}
+
+.loveimg {
+	display: inline-block;
+	width: 40%;
+}
+
+.openingstext {
+	display: inline-block;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	width: 40%;
+	padding: 0 3em;
+
+}
+
+.openingsimg {
+	display: inline-block;
+	width: 40%;
+	height: 400px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	color: #A543C8;
+	font-size: 3em;
+	}
+
+#openings {
+	list-style: none;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#openings:hover {
+	color: #A543C8;
+}
