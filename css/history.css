@@ -1,13 +1,19 @@
 #history {
 	width: 100%;
+	/*position: absolute;
+	left: 0;*/
 	/*height: 5%;*/
 	/*border: 2px solid;*/
-	margin: -16px 0 0 0;
+	/*margin: -16px 0 0 0;*/
 }
 
 #main {
 	/*background-color: red;*/
 	/*border: 2px solid;*/
+	/*position: absolute;
+	left: 0;*/
+	/*margin: 2px;*/
+	background-color: white;
 	float: left;
 	padding: 20px;
 	/*clear: both;*/
@@ -29,4 +35,15 @@
 	border-radius: 25px;
 	border: 2px solid;
 	/*clear: both;*/
+}
+
+footer {
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #b041c7;
+	font-size: 12px;
+	/*text-align: right;
+	width: 95.8%;
+	padding: 2em;
+	padding-top: .5em;
+	margin-top: 0;*/
 }
