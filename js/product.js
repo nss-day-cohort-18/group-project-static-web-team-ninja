@@ -1,90 +1,88 @@
 //Widget Objects
 var widget_1 = {
-	name: "<h3>Widget#2</h3>",	
-	img: "<img src='images/widget-1.jpg'class='product-img'>",
-	price: "<h4>$999,999</h4>",
-	description: "<p>Description</p>"
+	name: "Widget#1",	
+	img: "images/widget-1.jpg",
+	price: "$111,111",
+	description: "Description"
 }
-
 var widget_2 = {
-	name: "e",	
-	img: "f",
-	price: "g",
-	description: "h" 
+	name: "Widget #2",	
+	img: "images/widget-1.jpg",
+	price: "$222,222",
+	description: "Description"
 }
-
 var widget_3 = {
-	name: "<h3>Widget#3</h3>",	
-	img: "<img src='images/widget-1.jpg'class='product-img'>",
-	price: "<h4>$999,999</h4>",
-	description: "<p>Description</p>"
+	name: "Widget #3",	
+	img: "images/widget-1.jpg",
+	price: "$333,333",
+	description: "Description"
+}
+var widget_4 = {
+	name: "Widget #4",	
+	img: "images/widget-1.jpg",
+	price: "$444,444",
+	description: "Description"
+}
+var widget_5 = {
+	name: "Widget #5",	
+	img: "images/widget-1.jpg",
+	price: "$555,555",
+	description: "Description"
+}
+var widget_6 = {
+	name: "Widget #6",	
+	img: "images/widget-1.jpg",
+	price: "$666,666",
+	description: "Description"
+}
+var widget_7 = {
+	name: "Widget #7",	
+	img: "images/widget-1.jpg",
+	price: "$777,777",
+	description: "Description"
+}
+var widget_8 = {
+	name: "Widget #8",	
+	img: "images/widget-1.jpg",
+	price: "$888,888",
+	description: "Description"
 }
 
-var products =[
+//Array of products
+var products = [
 	widget_1,
 	widget_2,
-	widget_3
+	widget_3,
+	widget_4,
+	widget_5,
+	widget_6,
+	widget_7,
+	widget_8
 ]
 
-var cardSection = document.getElementById("card-section") ;
-var cardArt = document.createElement("article");
-var cardDets;
 
-for (var i = 0; i < products.length; i++) {
-	for (var property in products[i]) {
-		cardDets = document.createTextNode(products[i][property]);
-		console.log(cardDets);
-		cardArt.appendChild(cardDets);
-		
-		cardSection.innerHTML += cardSection.innerHTML + cardArt;
-	}
+
+
+
+
+
+//Grab Section
+var cardSection = document.getElementById("card-section");
+
+
+//Create Card & Add it to section
+function createCard () {
+	var cardArt = document.createElement("article");
+	cardArt.className = "product-card";
+	cardArt.innerHTML = cardArt.innerHTML  + "<h3>" + products[i].name + "</h3>";
+	cardArt.innerHTML  +=  "<img src=" + products[i].img + " class='product-img'>"; 
+	cardArt.innerHTML  += "<h4>" + products[i].price + "</h4>";
+	cardArt.innerHTML  += "<p>" + products[i].description + "</p>";
+	cardSection.appendChild(cardArt)
 }
 
-// for (var i = 0; i < products.length; i++) {
-// 	for (var property in products[i]) {
-// 		cardSection.innerHTML += "<article class='product-card'>" + (products[i][property]) + "</article>";
-// 	}
-// }
+//Loop through array and create card for each object
+for (var i = 0; i < products.length; i++) {
+	createCard(products[i]);
 
-// var widget_2 = {
-// 	name: ;
-// 	img: ;
-// 	price: ;
-// 	description: ; 
-// }
-// var widget_3 = {
-// 	name: ;
-// 	img: ;
-// 	price: ;
-// 	description: ; 
-// }
-// var widget_4 = {
-// 	name: ;
-// 	img: ;
-// 	price: ;
-// 	description: ; 
-// }
-// var widget_5 = {
-
-// }
-// var widget_6 = {
-
-// }
-// var widget_7 = {
-
-// }
-// var widget_8 = {
-
-// }
-
-// //Array of products
-// var products = [
-// 	widget_1,
-// 	widget_2,
-// 	widget_3,
-// 	widget_4,
-// 	widget_5,
-// 	widget_6,
-// 	widget_7,
-// 	widget_8
-// ]
+}
