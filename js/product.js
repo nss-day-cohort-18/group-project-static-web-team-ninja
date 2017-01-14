@@ -3,52 +3,52 @@ var widget_1 = {
 	name: "Widget#1",	
 	img: "images/widget-1.jpg",
 	price: "$111,111",
-	description: "Description"
+	description: "This is our first widget."
 }
 var widget_2 = {
 	name: "Widget #2",	
-	img: "images/widget-1.jpg",
+	img: "images/widget-2.png",
 	price: "$222,222",
-	description: "Description"
+	description: "Worked hard to make #2!"
 }
 var widget_3 = {
 	name: "Widget #3",	
-	img: "images/widget-1.jpg",
+	img: "images/widget-3.jpg",
 	price: "$333,333",
-	description: "Description"
+	description: "I have no idea what this even is..."
 }
 var widget_4 = {
 	name: "Widget #4",	
-	img: "images/widget-1.jpg",
+	img: "images/widget-4.jpg",
 	price: "$444,444",
-	description: "Description"
+	description: "Drill, drill, drill, drill, drill!"
 }
 var widget_5 = {
 	name: "Widget #5",	
-	img: "images/widget-1.jpg",
+	img: "images/widget-5.jpg",
 	price: "$555,555",
-	description: "Description"
+	description: "I'm not much of a coffee drinker, but here's one for you guys."
 }
 var widget_6 = {
 	name: "Widget #6",	
-	img: "images/widget-1.jpg",
+	img: "images/widget-6.jpg",
 	price: "$666,666",
-	description: "Description"
+	description: "I think this is some kind of ultrasound machine."
 }
 var widget_7 = {
 	name: "Widget #7",	
-	img: "images/widget-1.jpg",
+	img: "images/widget-7.jpg",
 	price: "$777,777",
-	description: "Description"
+	description: "Welcome to the future, where medical equipment floats."
 }
 var widget_8 = {
 	name: "Widget #8",	
-	img: "images/widget-1.jpg",
+	img: "images/widget-8.jpg",
 	price: "$888,888",
-	description: "Description"
+	description: "Something to do with sports or tennis. (Who doesn't enjoy some Andy Roddick?!)"
 }
 
-//Array of products
+//Array of Objects
 var products = [
 	widget_1,
 	widget_2,
@@ -66,7 +66,7 @@ var products = [
 
 
 
-//Grab Section
+//Grab Section Element
 var cardSection = document.getElementById("card-section");
 
 
